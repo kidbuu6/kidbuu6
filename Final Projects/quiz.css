@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: red;
+}
+
+footer {
+  background: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+section {
+  border: 4px solid black;
+}
+
+body {
+  width: 100vw;
+  height: 200vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 80px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  background: green;
+}
+
+.section2 {
+  background: blue;
+}
+
+.section3 {
+  background: orange;
+}
+
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 2fr
+}
